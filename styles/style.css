@@ -62,6 +62,10 @@ body {
   padding: 8px;
 }
 
+.media-object {
+  float: left;
+}
+
 .video-list-entry-title {
   font-weight: bold;
 }
