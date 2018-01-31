@@ -11,7 +11,8 @@ var VideoListView = Backbone.View.extend({
     var $videos = this.$el.find('.video-list');
 
     this.collection.forEach(function (video) {
-      var videoView = new VideoListEntryView(video);            
+      var videoView = new VideoListEntryView(video);
+
       $videos.append('<div>' + videoView.$el.html() + '</div>');
     });
     

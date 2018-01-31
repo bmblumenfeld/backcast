@@ -4,8 +4,16 @@ var SearchView = Backbone.View.extend({
     this.render();
   },
 
+  // events: {
+  //   'click div': function(e) {
+  //     console.log('sadflkasdhfasdf');
+  //   },
+  // },
+
+
   render: function() {
     this.$el.html(this.template());
+
     return this;
   },
 
