@@ -4,11 +4,13 @@ var SearchView = Backbone.View.extend({
     this.render();
   },
 
-  // events: {
-  //   'click div': function(e) {
-  //     console.log('sadflkasdhfasdf');
-  //   },
-  // },
+  events: {
+    'click .glyphicon-search': 'handleSubmit',
+  },
+
+  handleSubmit: function (e) {
+    console.log('clicking submit');
+  },
 
 
   render: function() {

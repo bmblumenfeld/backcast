@@ -64,6 +64,7 @@ body {
 
 .media-object {
   float: left;
+  padding-right: 8px;
 }
 
 .video-list-entry-title {
